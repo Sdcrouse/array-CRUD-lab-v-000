@@ -33,7 +33,7 @@ end
 
 def retrieve_last_element_from_array(array)
   array[-1]
-  #array.last
+  #array.last <== Arguably, THIS code is the most elegant and makes the most sense.
   #array[array.length - 1]
   #array[array.count - 1]
 end
